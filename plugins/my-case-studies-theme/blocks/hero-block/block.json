@@ -1,0 +1,23 @@
+{
+  "name": "my-case-studies-plugin/hero-block",
+  "title": "Hero Block",
+  "description": "A hero section with a title, subtitle, and background image.",
+  "category": "common",
+  "icon": "align-wide",
+  "apiVersion": 2,
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our Case Studies"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Real-world work"
+    },
+    "backgroundImage": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "style": "file:./style.css"
+}

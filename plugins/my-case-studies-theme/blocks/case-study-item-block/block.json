@@ -1,0 +1,14 @@
+{
+  "name": "my-case-studies-plugin/case-study-item-block",
+  "title": "Case Study Item Block",
+  "description": "Displays a case study fetched from the API.",
+  "category": "common",
+  "icon": "clipboard-text",
+  "apiVersion": 2,
+  "attributes": {
+    "projectId": {
+      "type": "number"
+    }
+  },
+  "style": "file:./style.css"
+}
